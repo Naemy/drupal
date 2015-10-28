@@ -1,0 +1,9 @@
+uuid: 8ab7b866-89a0-4580-a00f-15fb3227bdde
+langcode: fr
+status: true
+dependencies: {  }
+id: personal
+label: 'Formulaire de contact personnel'
+recipients: {  }
+reply: ''
+weight: 0

@@ -1,0 +1,11 @@
+uuid: 2cdc621c-6b44-450a-b66e-03040a603716
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.fiche_oeuvre
+id: node.fiche_oeuvre
+target_entity_type_id: node
+target_bundle: fiche_oeuvre
+default_langcode: site_default
+language_alterable: false

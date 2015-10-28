@@ -1,0 +1,21 @@
+uuid: a3a92740-60a2-4529-b228-3859f296f026
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_resume_oeuvre
+    - node.type.fiche_oeuvre
+  module:
+    - text
+id: node.fiche_oeuvre.field_resume_oeuvre
+field_name: field_resume_oeuvre
+entity_type: node
+bundle: fiche_oeuvre
+label: 'Résumé de l''oeuvre'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

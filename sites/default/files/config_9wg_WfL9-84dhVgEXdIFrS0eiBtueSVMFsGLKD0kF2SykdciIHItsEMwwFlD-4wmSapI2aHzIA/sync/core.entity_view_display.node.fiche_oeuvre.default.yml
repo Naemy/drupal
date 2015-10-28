@@ -1,0 +1,77 @@
+uuid: 2b9cbafc-c6f5-427d-a263-d8797f756cdf
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.fiche_oeuvre.field_code_isbn
+    - field.field.node.fiche_oeuvre.field_couverture
+    - field.field.node.fiche_oeuvre.field_date_parution
+    - field.field.node.fiche_oeuvre.field_genre
+    - field.field.node.fiche_oeuvre.field_nom_d_auteur
+    - field.field.node.fiche_oeuvre.field_resume_oeuvre
+    - field.field.node.fiche_oeuvre.field_titre_oeuvre
+    - node.type.fiche_oeuvre
+  module:
+    - datetime
+    - image
+    - options
+    - text
+    - user
+id: node.fiche_oeuvre.default
+targetEntityType: node
+bundle: fiche_oeuvre
+mode: default
+content:
+  field_code_isbn:
+    weight: 109
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+  field_couverture:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_date_parution:
+    weight: 104
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+  field_genre:
+    weight: 108
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+  field_nom_d_auteur:
+    weight: 110
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_resume_oeuvre:
+    weight: 107
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_titre_oeuvre:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+  links:
+    weight: 100
+hidden:
+  langcode: true

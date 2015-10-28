@@ -1,0 +1,21 @@
+uuid: a21a8cca-8887-43b3-885f-abb80b6a1354
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date_naissance
+    - node.type.fiche_auteur
+  module:
+    - datetime
+id: node.fiche_auteur.field_date_naissance
+field_name: field_date_naissance
+entity_type: node
+bundle: fiche_auteur
+label: 'date de naissance'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

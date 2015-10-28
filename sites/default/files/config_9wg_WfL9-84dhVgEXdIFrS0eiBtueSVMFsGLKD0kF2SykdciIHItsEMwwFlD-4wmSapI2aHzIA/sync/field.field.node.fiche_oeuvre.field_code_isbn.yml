@@ -1,0 +1,23 @@
+uuid: 82ba59ec-8c9c-4aa4-a5e8-5af22083bd36
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_code_isbn
+    - node.type.fiche_oeuvre
+id: node.fiche_oeuvre.field_code_isbn
+field_name: field_code_isbn
+entity_type: node
+bundle: fiche_oeuvre
+label: 'Code ISBN'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: 2147483647
+  prefix: ''
+  suffix: ''
+field_type: integer

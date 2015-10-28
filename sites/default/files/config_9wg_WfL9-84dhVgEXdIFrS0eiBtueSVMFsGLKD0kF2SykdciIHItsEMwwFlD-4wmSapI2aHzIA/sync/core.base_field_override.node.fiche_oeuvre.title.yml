@@ -1,0 +1,18 @@
+uuid: c4d15762-cb92-4155-845d-419dbab7654d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.fiche_oeuvre
+id: node.fiche_oeuvre.title
+field_name: title
+entity_type: node
+bundle: fiche_oeuvre
+label: 'Titre de l''oeuvre'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

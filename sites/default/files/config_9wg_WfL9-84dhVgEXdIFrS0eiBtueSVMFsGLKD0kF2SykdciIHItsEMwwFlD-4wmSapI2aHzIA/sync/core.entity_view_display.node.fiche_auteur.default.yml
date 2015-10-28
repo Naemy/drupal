@@ -1,0 +1,62 @@
+uuid: 3c484a10-1f86-4d29-a14a-4a7624c9ffe6
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.fiche_auteur.field_biographie
+    - field.field.node.fiche_auteur.field_date_mort
+    - field.field.node.fiche_auteur.field_date_naissance
+    - field.field.node.fiche_auteur.field_nom_auteur
+    - field.field.node.fiche_auteur.field_portrait
+    - node.type.fiche_auteur
+  module:
+    - datetime
+    - image
+    - text
+    - user
+id: node.fiche_auteur.default
+targetEntityType: node
+bundle: fiche_auteur
+mode: default
+content:
+  field_biographie:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_date_mort:
+    weight: 104
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+  field_date_naissance:
+    weight: 103
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+  field_nom_auteur:
+    weight: 101
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_portrait:
+    weight: 105
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  links:
+    weight: 100
+hidden:
+  langcode: true

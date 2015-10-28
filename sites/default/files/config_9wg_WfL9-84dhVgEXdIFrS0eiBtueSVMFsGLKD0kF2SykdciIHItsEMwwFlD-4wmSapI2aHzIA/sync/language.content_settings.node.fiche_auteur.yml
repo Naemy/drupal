@@ -1,0 +1,11 @@
+uuid: 186a8414-f79b-492b-9959-1a84294841af
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.fiche_auteur
+id: node.fiche_auteur
+target_entity_type_id: node
+target_bundle: fiche_auteur
+default_langcode: site_default
+language_alterable: false

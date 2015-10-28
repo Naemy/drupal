@@ -1,0 +1,21 @@
+uuid: d10125dc-0b03-4138-b53e-43a365bb9c79
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date_parution
+    - node.type.fiche_oeuvre
+  module:
+    - datetime
+id: node.fiche_oeuvre.field_date_parution
+field_name: field_date_parution
+entity_type: node
+bundle: fiche_oeuvre
+label: 'date de parution'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

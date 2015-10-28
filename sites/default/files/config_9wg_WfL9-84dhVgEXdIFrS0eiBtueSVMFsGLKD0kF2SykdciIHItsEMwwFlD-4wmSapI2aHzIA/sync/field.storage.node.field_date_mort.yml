@@ -1,0 +1,20 @@
+uuid: ef9fa1f4-eefe-4c34-9bd4-a4c095d36923
+langcode: fr
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+id: node.field_date_mort
+field_name: field_date_mort
+entity_type: node
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,10 @@
+uuid: da0fe8c0-c86b-4d69-a300-ead0d37ab6c1
+langcode: fr
+status: true
+dependencies: {  }
+id: feedback
+label: 'Website feedback'
+recipients:
+  - aurelieneveutpasdepub@gmail.com
+reply: ''
+weight: 0

@@ -1,0 +1,20 @@
+uuid: e31849d3-244e-43af-a100-a6f9eae6ec5c
+langcode: fr
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - seven
+id: seven_login
+theme: seven
+region: content
+weight: 10
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'Connexion utilisateur'
+  provider: user
+  label_display: visible
+visibility: {  }

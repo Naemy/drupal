@@ -1,0 +1,9 @@
+uuid: e46036a2-d438-4134-a600-ae53913e52e8
+langcode: fr
+status: true
+dependencies: {  }
+name: Étiquettes
+vid: tags
+description: 'Use tags to group articles on similar topics into categories.'
+hierarchy: 0
+weight: 0

@@ -1,0 +1,26 @@
+uuid: a5aa99aa-c5af-4957-9315-7d53334f51d2
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nom_d_auteur
+    - node.type.fiche_auteur
+    - node.type.fiche_oeuvre
+id: node.fiche_oeuvre.field_nom_d_auteur
+field_name: field_nom_d_auteur
+entity_type: node
+bundle: fiche_oeuvre
+label: 'Nom de l''auteur'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      fiche_auteur: fiche_auteur
+    sort:
+      field: _none
+field_type: entity_reference

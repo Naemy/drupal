@@ -1,0 +1,21 @@
+uuid: 43c51409-7bfa-4b0b-88c8-fccb39d1e8a2
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_genre
+    - node.type.fiche_oeuvre
+  module:
+    - options
+id: node.fiche_oeuvre.field_genre
+field_name: field_genre
+entity_type: node
+bundle: fiche_oeuvre
+label: Genre
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,10 @@
+uuid: 2b8c2342-d8bd-4851-9290-4323fd9805a8
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: node.single_author
+label: single_author
+targetEntityType: node
+cache: true

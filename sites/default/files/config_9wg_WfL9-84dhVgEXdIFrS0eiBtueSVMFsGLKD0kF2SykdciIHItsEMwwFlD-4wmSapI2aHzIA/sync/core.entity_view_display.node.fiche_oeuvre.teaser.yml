@@ -1,0 +1,18 @@
+uuid: bd1a69cb-326e-4cd5-904d-b4141ea21aa5
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.fiche_oeuvre
+  module:
+    - user
+id: node.fiche_oeuvre.teaser
+targetEntityType: node
+bundle: fiche_oeuvre
+mode: teaser
+content:
+  links:
+    weight: 100
+hidden:
+  langcode: true

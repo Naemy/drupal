@@ -1,0 +1,45 @@
+uuid: b815492c-2533-4bdf-aefa-3043f7001a1c
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_genre
+field_name: field_genre
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'Roman courtois'
+      label: 'Roman courtois'
+    -
+      value: 'Roman historique'
+      label: 'Roman historique'
+    -
+      value: 'Roman épistolaire'
+      label: 'Roman épistolaire'
+    -
+      value: Roman-mémoires
+      label: Roman-mémoires
+    -
+      value: 'Roman d''amour'
+      label: 'Roman d''amour'
+    -
+      value: 'Roman industriel'
+      label: 'Roman industriel'
+    -
+      value: 'Nouvelle fiction'
+      label: 'Nouvelle fiction'
+    -
+      value: Non-fiction
+      label: Non-fiction
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

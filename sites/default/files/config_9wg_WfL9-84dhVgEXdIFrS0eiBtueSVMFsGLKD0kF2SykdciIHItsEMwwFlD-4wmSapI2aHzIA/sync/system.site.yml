@@ -1,0 +1,12 @@
+uuid: ac98bed1-ee0a-444a-b800-e6a5373aaf73
+name: Drupal-hetic
+mail: aurelieneveutpasdepub@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: fr
+default_langcode: fr

@@ -1,0 +1,18 @@
+uuid: 41e6ac4d-af44-42b1-942b-21b6bd89c9c4
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.fiche_auteur
+id: node.fiche_auteur.title
+field_name: title
+entity_type: node
+bundle: fiche_auteur
+label: 'Nom complet de l''auteur'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

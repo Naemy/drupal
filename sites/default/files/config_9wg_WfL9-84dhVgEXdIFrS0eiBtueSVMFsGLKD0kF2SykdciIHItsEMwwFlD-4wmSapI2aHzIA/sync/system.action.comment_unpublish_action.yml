@@ -1,0 +1,11 @@
+uuid: 03e7023e-959f-4414-9e00-b56c7570a25c
+langcode: fr
+status: true
+dependencies:
+  module:
+    - comment
+id: comment_unpublish_action
+label: 'Dépublier le commentaire'
+type: comment
+plugin: comment_unpublish_action
+configuration: {  }
