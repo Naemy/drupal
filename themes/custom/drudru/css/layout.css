@@ -1,1 +1,4 @@
-layout.css
+.layout-container {
+	max-width: 1024px;
+	padding: 30px;
+}
