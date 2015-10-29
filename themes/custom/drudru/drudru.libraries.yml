@@ -2,8 +2,11 @@ global-styling:
   version: VERSION
   css:
     base:
-      css/normalize.css: {}
-      css/general.css: {}
-      css/layout.css: {}
+      css/normalize.css:  {}
+      css/typos.css:      {}
+      css/general.css:    {}
+      css/layout.css:     {}
       css/components.css: {}
+
+      css/pages/oeuvres.css: {}
 

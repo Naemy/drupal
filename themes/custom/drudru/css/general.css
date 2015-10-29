@@ -1,3 +1,18 @@
 body {
-	background: salmon;
+	background: #fff;
+	font-family: Roboto, Helvetica, Arial, sans-serif;
+	color: #363636;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
 }
