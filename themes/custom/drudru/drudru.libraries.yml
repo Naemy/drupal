@@ -2,5 +2,8 @@ global-styling:
   version: VERSION
   css:
     base:
-      css/style.css: {}
+      css/normalize.css: {}
+      css/general.css: {}
+      css/layout.css: {}
+      css/components.css: {}
 
