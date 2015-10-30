@@ -1,0 +1,32 @@
+#block-drudru-page-title {
+	 display: none;
+}
+
+.field--name-field-genre .field__label, .field--name-field-auteur-oeuvre .field__label, .field--name-field-titre-oeuvre .field__label  {
+	display: none;
+
+}
+
+.field--name-field-genre .field__item, .field--name-field-auteur-oeuvre .field__item, .field--name-field-titre-oeuvre .field__item  {
+	text-align: center;
+
+}
+
+
+.field--name-field-genre>.field__item {
+	font-size: 9px;
+	font-style: italic;
+
+}
+
+
+
+
+.field--name-field-titre-oeuvre>.field__item {
+	text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 8px;
+    font-weight: normal;
+    padding: 140px 0 10px 0;
+
+}

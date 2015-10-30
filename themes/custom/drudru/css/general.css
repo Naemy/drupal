@@ -1,9 +1,20 @@
 body {
-  background: #ecf0f1;
+	background: #fff;
+	font-family: Roboto, Helvetica, Arial, sans-serif;
+	color: #363636;
 }
 
-.node__submitted {
-  display: none;
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
 }
 .field--name-field-auteur-portrait {
   float: left;
