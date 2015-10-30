@@ -1,3 +1,11 @@
 body {
-	background: salmon;
+  background: #ecf0f1;
+}
+
+.node__submitted {
+  display: none;
+}
+.field--name-field-auteur-portrait {
+  float: left;
+  margin-right: 30px;
 }
